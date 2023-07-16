@@ -30,7 +30,8 @@
 Two Sum 找相等 用map; 找小于/大于某个数 用sort+two pointers\
 [1885. Count Pairs in Two Arrays](https://hackmd.io/JJb56E1kTviOjH2qQcEE6A)\
 [2491. Divide Players Into Teams of Equal Skill](https://hackmd.io/7q4BQgOoTlaOPHe5PpcnZw)\
-[2563. Count the Number of Fair Pairs](https://hackmd.io/FneNxcLbTO-H1jMqRYx-6A)
+[2563. Count the Number of Fair Pairs](https://hackmd.io/FneNxcLbTO-H1jMqRYx-6A)\
+[1711. Count Good Meals](https://hackmd.io/DH4xwaUXSAO_u8LAPUlm1Q)
 ### Unfamiliar
 [1989. Maximum Number of People That Can Be Caught in Tag](https://hackmd.io/jVv97NtYShW7sWhHjV7jMw)
 ### Merge Intervals
@@ -41,7 +42,7 @@ Two Sum 找相等 用map; 找小于/大于某个数 用sort+two pointers\
 [0986. Interval List Intersections](https://hackmd.io/1oCvBXRuRsSWPuKUItw3Gg)
 #### more general:
 两个sequence 两个指针一个个跑\
-[2098. Subsequence of Size K With the Largest Even Sum](https://)
+[2098. Subsequence of Size K With the Largest Even Sum](https://hackmd.io/jU92j-qxSrulIKhfradL-w)
 ### Sliding Window
 - 看到substring就应该想到sliding window
 - 如果我们依次递增地枚举子串的起始位置，那么子串的结束位置也是递增的！那么就可以使用「滑动窗口」来解决这个问题了
@@ -54,14 +55,17 @@ Two Sum 找相等 用map; 找小于/大于某个数 用sort+two pointers\
 [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://hackmd.io/lqKln8EoSWO9ra_VECSsZQ)\
 [1031. Maximum Sum of Two Non-Overlapping Subarrays](https://hackmd.io/hSLeqvRvTSWn3kDV72XEIg)\
 [2134. Minimum Swaps to Group All 1's Together II](https://hackmd.io/bHmVkah-TTCvJD8_6It_pA)\
-[2107. Number of Unique Flavors After Sharing K Candies](https://hackmd.io/5jNUdj9EQDyHdp8OgXCAzw)
+[2107. Number of Unique Flavors After Sharing K Candies](https://hackmd.io/5jNUdj9EQDyHdp8OgXCAzw)\
+[2653. Sliding Subarray Beauty](https://hackmd.io/s8pdv210Qh-s8aQvQS7YtA)\
+[2747. Count Zero Request Servers](https://hackmd.io/1u2xKxOcSrWw_La9rNp3BQ)
 ##### Distinct Subarray
 [2461. Maximum Sum of Distinct Subarrays With Length K](https://hackmd.io/8kM45sHuQhq-aHejy2B7ZQ)
 #### Unfixed Length Sliding Window
 while回圈遍历 先加上新的值 如果window里面的value invalid 跑**while**回圈挪left pointer一直到valid为止 **(在回圈外面)** 更新答案\
 [2024. Maximize the Confusion of an Exam](https://hackmd.io/fQOTPNnqT-SfFNKxzOpCag)\
 [2444. Count Subarrays With Fixed Bounds](https://hackmd.io/5TbKxlSMQPKLK6J6_3S6Ig)\
-[2516. Take K of Each Character From Left and Right](https://hackmd.io/2tjy5JpkS0iDajyrZGHkbQ)
+[2516. Take K of Each Character From Left and Right](https://hackmd.io/2tjy5JpkS0iDajyrZGHkbQ)\
+[2765. Longest Alternating Subarray](https://hackmd.io/9jJC0ACyT5a7p5KEikiRiA)
 ##### Sliding Window for Number Sequence
 大部分时候不需要用prefixsum 还比较节省空间\
 [1004. Max Consecutive Ones III](https://hackmd.io/LbO10-8UTDWGIJX2A4cEfA)\
@@ -74,7 +78,8 @@ while回圈遍历 先加上新的值 如果window里面的value invalid 跑**whi
 [2271. Maximum White Tiles Covered by a Carpet](https://hackmd.io/7FnX3SCASZyuEec1uVk90w)
 #### Sliding Window + DP
 [2555. Maximize Win From Two Segments](https://hackmd.io/HKJMbIInThiVNpzZHnf_og)
-
+#### Longest Sliding Window
+[2779. Maximum Beauty of an Array After Applying Operation](https://hackmd.io/Qsl7RpgxTreTZglXwmSySg)
 #### 变式
 [0930. Binary Subarrays With Sum](https://hackmd.io/wHpz7ueHSeyRa9d9hQBIdw)\
 [1658. Minimum Operations to Reduce X to Zero](https://hackmd.io/sSVu2nTaT3mIxUfVX337PQ)\
@@ -87,7 +92,8 @@ while回圈遍历 先加上新的值 如果window里面的value invalid 跑**whi
 
 ## Sort
 [0147. Insertion Sort List](https://hackmd.io/iJKi2XW9SBC7oVAmXsrJ3A)\
-[2545. Sort the Students by Their Kth Score](https://hackmd.io/4JKjhA9tTse0Ulk1PD-rUw)]
+[2545. Sort the Students by Their Kth Score](https://hackmd.io/4JKjhA9tTse0Ulk1PD-rUw)
+
 ## HashMap
 考虑特殊情况
 2sum问题和[0532. K-diff Pairs in an Array](https://hackmd.io/u9NqEI8aRV6-nCSd0VCRVw)和[2131. Longest Palindrome by Concatenating Two Letter Words](https://hackmd.io/mOO7zW3vQmqlS-HZNFr2tg) 如果diff=0，或者target sum减完当下数字还等于当下数字，那么这时候就要**重复使用同一个entry** 所以要特别讨论
@@ -109,7 +115,8 @@ while回圈遍历 先加上新的值 如果window里面的value invalid 跑**whi
 [2506. Count Pairs Of Similar Strings](https://hackmd.io/WmpUVmyYQNyh4jq8xI0qMw)\
 [2006. Count Number of Pairs With Absolute Difference K](https://hackmd.io/0EzOD00wQJOZ-KebRVGKKg)\
 [2083. Substrings That Begin and End With the Same Letter](https://hackmd.io/kdyHWh97Rm-YqKS6PJ1YUg)\
-[2150. Find All Lonely Numbers in the Array](https://hackmd.io/XKuF25mYSr-LH--8C_UhdA)
+[2150. Find All Lonely Numbers in the Array](https://hackmd.io/XKuF25mYSr-LH--8C_UhdA)\
+[2657. Find the Prefix Common Array of Two Arrays](https://hackmd.io/hrwdN54ETjWn5jEtPOzkNw)
 ### 变式
 [0890. Find and Replace Pattern](https://hackmd.io/q5X-Wx7nRlW9lCF0PtLeyQ)\
 [0128. Longest Consecutive Sequence](https://hackmd.io/xQ0F7nSeRUqZ3CabQjFQxg)
@@ -167,7 +174,8 @@ map建好之后跑回圈之前 通常要先放一个值 **如果是算substring 
 [2389. Longest Subsequence With Limited Sum](https://hackmd.io/l5hF6FN6T66hno-ndYrvsw)\
 [2426. Number of Pairs Satisfying Inequality](https://hackmd.io/ngD98TVUSXOEOUP66nF-lQ)\
 [0852. Peak Index in a Mountain Array](https://hackmd.io/EQOMpC6lSBapVJ6PSnP2MA)\
-[1712. Ways to Split Array Into Three Subarrays](https://hackmd.io/VyYwo5xuTAaCcCokB-6BTw)
+[1712. Ways to Split Array Into Three Subarrays](https://hackmd.io/VyYwo5xuTAaCcCokB-6BTw)\
+[2602. Minimum Operations to Make All Array Elements Equal](https://hackmd.io/ZXR1h6CER96MrOgxtoRo3w)
 ### Binary Search by Value
 [1011. Capacity To Ship Packages Within D Days](https://hackmd.io/w9w2BtjpSsiVqhx9rhPGkQ)\
 [1231. Divide Chocolate](https://hackmd.io/gB-3GUnbTzK2u0WNO6Yzxw)\
@@ -189,7 +197,8 @@ map建好之后跑回圈之前 通常要先放一个值 **如果是算substring 
 [1300. Sum of Mutated Array Closest to Target](https://hackmd.io/AmhQgOSXQxuiuYJeTOymSQ)\
 [2141. Maximum Running Time of N Computers](https://hackmd.io/A9EfBVIaSpm7SSmh07AeIQ)\
 [1508. Range Sum of Sorted Subarray Sums](https://hackmd.io/1a4nVnUrR-WYq4H9jTHX4w)\
-[2250. Count Number of Rectangles Containing Each Point](https://hackmd.io/YVGJtsfjQwOcriojK3gErQ)
+[2250. Count Number of Rectangles Containing Each Point](https://hackmd.io/YVGJtsfjQwOcriojK3gErQ)\
+[2616. Minimize the Maximum Difference of Pairs](https://hackmd.io/DvZPao7xSMewDofJ6sC4xA)
 ### K-th Element
 [1918. Kth Smallest Subarray Sum](https://hackmd.io/jyl8yjzlRFOLeg1_ctbjAg)
 
@@ -230,14 +239,14 @@ TreeMap
 [1801. Number of Orders in the Backlog](https://hackmd.io/iKDFgeW4Q3CuNdp_2JFHiA)
 #### 区间最值* 区间总和
 [1383. Maximum Performance of a Team](https://hackmd.io/bKCHp-8yTLi42s5emUM0WQ)\
-[0857. Minimum Cost to Hire K Workers](https://hackmd.io/Ssaze_deSyi6x6qnHjWwHw)
+[0857. Minimum Cost to Hire K Workers](https://hackmd.io/Ssaze_deSyi6x6qnHjWwHw)\
 [2542. Maximum Subsequence Score](https://hackmd.io/5FRH1WNDS0e5CMXcu_ypqQ)
 ### Priority Queue+TreeMap
 [1488. Avoid Flood in The City](https://hackmd.io/gKFb3WZtR3eNxikpO1CJpw)\
 [1606. Find Servers That Handled Most Number of Requests](https://hackmd.io/y7AOPFnTRgymeyjvmtiwgw)
 ### Task Scheduler
 都是借用了priority queue的idea 但是用了桶排序 因为元素个数都是有限的
-如果不能有repeat pattern 那么先排出现次数最多的再排别的(前三题)
+如果不能有repeat pattern 那么先排出现次数最多的再排别的(前三题)\
 [0767. Reorganize String](https://hackmd.io/Cs2YBT2RQHOFLNcLLFBPOQ)\
 [1054. Distant Barcodes](https://hackmd.io/5RbR4Q9pRBKgIMKYQjgxQg)\
 [1953. Maximum Number of Weeks for Which You Can Work](https://hackmd.io/d3qZmsx9SPGPnFdA_pMmHA)\
@@ -305,7 +314,7 @@ StringBuilder也可以看成stack\
 [0417. Pacific Atlantic Water Flow](https://hackmd.io/J7U3OUnKRkqjNbp2Pmjy_Q)
 ### matrix (避免重复)
 [0562. Longest Line of Consecutive One in Matrix](https://hackmd.io/56Zexs7iTzG5ZBjUgg2RkQ)\
-[0419. Battleships in a Board](https://hackmd.io/ttfskch1T9KylrMMkqHqJg)
+[0419. Battleships in a Board](https://hackmd.io/ttfskch1T9KylrMMkqHqJg)\
 [1992. Find All Groups of Farmland](https://hackmd.io/CHHbwKV_R3SodD0m7VECbQ)
 ### Backtracking
 backtracking 模版:
@@ -330,7 +339,8 @@ backtracking 模版:
 [1240. Tiling a Rectangle with the Fewest Squares](https://hackmd.io/agLq_D4QS5aSiQkNGyjmpw)\
 [0679. 24 Game](https://hackmd.io/bv9x7GM0TH-ObArdnkkG3w)\
 [1088. Confusing Number II](https://hackmd.io/S_3yNv8sRjeja1LBRekPhw)\
-[2305. Fair Distribution of Cookies](https://hackmd.io/PyZsnMzJS7iygTghZY9ecA)
+[2305. Fair Distribution of Cookies](https://hackmd.io/PyZsnMzJS7iygTghZY9ecA)\
+[1718. Construct the Lexicographically Largest Valid Sequence](https://hackmd.io/RQLetjL5SKWS-XjTeddqXQ)
 #### Find Distinct Subset
 [0090. Subsets II](https://hackmd.io/x0yhje8TSeWaIkIZf8NqHQ)\
 [0040. Combination Sum II](https://hackmd.io/cOOug_AXSUeBnJKIjdF2IA)\
@@ -346,8 +356,11 @@ backtracking 模版:
 [0139. Word Break](https://hackmd.io/_c6UcaDWT9mWEQHdB3_XXQ)(经典)\
 [0140. Word Break II](https://hackmd.io/nVBOAkUWR_OjK3NHME9cNQ)\
 [0546. Remove Boxes](https://hackmd.io/T7eZJ9ZhQ9ayxS2ZVXdhKQ)(非常难想 没时间就跳过)\
-[0756. Pyramid Transition Matrix](https://hackmd.io/e3HHCquFQpu8yG7RXpJHvg)
-
+[0756. Pyramid Transition Matrix](https://hackmd.io/e3HHCquFQpu8yG7RXpJHvg)\
+[2646. Minimize the Total Price of the Trips](https://hackmd.io/SxPkuNLCSI2njX-lIhwKvQ)\
+[2684. Maximum Number of Moves in a Grid](https://hackmd.io/MBjdfjYPScWoVf4RMEDFTQ)\
+[2770. Maximum Number of Jumps to Reach the Last Index](https://hackmd.io/m1F8qtlUSJyPNyGubJTVDg)\
+[2746. Decremental String Concatenation](https://hackmd.io/k-4VY38IQVSUU4rEJddBBQ)(经典)
 ### Min-max Strategy
 需要memo记录之前算出的结果
 根据题意定义memo的每一个state
@@ -412,7 +425,8 @@ backtracking 模版:
 [1631. Path With Minimum Effort](https://hackmd.io/lWn1ryikSgOnvho6uAYZEw)\
 [1976. Number of Ways to Arrive at Destination](https://hackmd.io/xxg1ck5lRmSDnAIrA0ZiCA)\
 [1514. Path with Maximum Probability](https://hackmd.io/B7M8f6PUSdqHzZry7hDpSA)\
-[2577. Minimum Time to Visit a Cell In a Grid](https://hackmd.io/k1vSBzNrT3qBcnO7CtToIA)
+[2577. Minimum Time to Visit a Cell In a Grid](https://hackmd.io/k1vSBzNrT3qBcnO7CtToIA)\
+[2642. Design Graph With Shortest Path Calculator](https://hackmd.io/F17iBk91TPuRSrvLFCn1Pg)
 #### 2D Dijkstra
 [2093. Minimum Cost to Reach City With Discounts](https://hackmd.io/VvFl9ny3Q1Ca1evfAMg0Iw)
 #### 变式
@@ -440,7 +454,9 @@ backtracking 模版:
 [1899. Merge Triplets to Form Target Triplet](https://hackmd.io/PU1Y8a9lRfiCxh7HOkhRsA)\
 [2541. Minimum Operations to Make Array Equal II](https://hackmd.io/Rsw86XJERdyApq1faFdm2A)\
 [1702. Maximum Binary String After Change](https://hackmd.io/iTkDngiTTEuhheZoJDiL2g)\
-[2592. Maximize Greatness of an Array](https://hackmd.io/QtBFzz-NTpKu2rwCZSyqDw)
+[2592. Maximize Greatness of an Array](https://hackmd.io/QtBFzz-NTpKu2rwCZSyqDw)\
+[2601. Prime Subtraction Operation](https://hackmd.io/aO_ZiVxaRSmT1EAbFpjvkA)\
+[1710. Maximum Units on a Truck](https://hackmd.io/Azp1JADsRNizhVwrvm2YGQ)
 ### 典型题
 [0055. Jump Game](https://leetcode.com/problems/jump-game/)\
 [0045. Jump Game II](https://hackmd.io/eBarqjRNTIOUYBMU64wLKg)\
@@ -450,15 +466,18 @@ backtracking 模版:
 [0871. Minimum Number of Refueling Stops](https://hackmd.io/4kblNIOAREG95Yd9oBd4Kg)\
 [2554. Maximum Number of Integers to Choose From a Range I](https://hackmd.io/8WSzFyiGRVilV5xszzchVg)\
 [2560. House Robber IV](https://hackmd.io/QHqY5ENiR3ig9GsnoCFSMQ)\
-[2587. Rearrange Array to Maximize Prefix Score](https://hackmd.io/orzt5TBsQgC43EQAM3-n5Q)
+[2587. Rearrange Array to Maximize Prefix Score](https://hackmd.io/orzt5TBsQgC43EQAM3-n5Q)\
+[2616. Minimize the Maximum Difference of Pairs](https://hackmd.io/DvZPao7xSMewDofJ6sC4xA)
 ### Greedy+Sliding Window
-[2271. Maximum White Tiles Covered by a Carpet](https://hackmd.io/7FnX3SCASZyuEec1uVk90w)
+[2271. Maximum White Tiles Covered by a Carpet](https://hackmd.io/7FnX3SCASZyuEec1uVk90w)\
+[2772. Apply Operations to Make All Array Elements Equal to Zero](https://hackmd.io/i6u-Oj7zT1y0-53eZhImGQ)
 ### Greedy+Two Pointers
 [2576. Find the Maximum Number of Marked Indices](https://hackmd.io/ywDm08ECTGOyV6pOqdpH2A)
 ### LIS
 [0300. Longest Increasing Subsequence](https://hackmd.io/oPc5yL1oRhGtGP8UdRd3_g)(非常经典)\
 [1964. Find the Longest Valid Obstacle Course at Each Position](https://hackmd.io/L_tAL8h3RpCeAvmC8-wtUw)\
-[2111. Minimum Operations to Make the Array K-Increasing](https://hackmd.io/DloEOqTUStWAbxMlV5SF3g)
+[2111. Minimum Operations to Make the Array K-Increasing](https://hackmd.io/DloEOqTUStWAbxMlV5SF3g)\
+[OA-001. Minimum Number of Groups of Non-overlapping Rectangles](https://hackmd.io/DO-FYACFR7mWnHy4J_Yiug)
 ### DI Sequence
 [0942. DI String Match](https://hackmd.io/gE6jl366S_aqxpTzLNEpAg)\
 [2375. Construct Smallest Number From DI String](https://hackmd.io/z0lYYhNJR1K5Jj5IOXQ1qw)\
@@ -557,7 +576,8 @@ backtracking 模版:
 [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://hackmd.io/A_yK1nswTE-2tAE9nPmCqA)\
 [0513. Find Bottom Left Tree Value](https://hackmd.io/R58JxhlbT7OssTKbrF_BpA)\
 [0637. Average of Levels in Binary Tree](https://hackmd.io/O02hytr6Sw6JqxXaVsh7Bg)\
-[2583. Kth Largest Sum in a Binary Tree](https://hackmd.io/Bdxss1k1QjSBy2bW5KDJoA)
+[2583. Kth Largest Sum in a Binary Tree](https://hackmd.io/Bdxss1k1QjSBy2bW5KDJoA)\
+[2641. Cousins in Binary Tree II](https://hackmd.io/ZtR8IzA7SQ-7dIrMZ-He-A)
 ### dfs + Tree
 [0110. Balanced Binary Tree](https://hackmd.io/qytkvtqYQQSKtQq8QP1x9g)(经典)\
 [2467. Most Profitable Path in a Tree](https://hackmd.io/wgTl8LzpQTCJ1siUYKtUHw)\
@@ -570,7 +590,7 @@ backtracking 模版:
 需要一个global variable来存答案
 因为每次dfs都只会找包含left/right child的subtree里的最优值(注意：一定是包含left/right tree)
 但path需要把left subtree和right subtree的解加在一起\
-[1022. Sum of Root To Leaf Binary Numbers](https://hackmd.io/V4AyUQyZTxGBZUnVjhrFpA)
+[1022. Sum of Root To Leaf Binary Numbers](https://hackmd.io/V4AyUQyZTxGBZUnVjhrFpA)\
 [0543. Diameter of Binary Tree](https://hackmd.io/FPZpR3NBQuCV_u2vTZaEvQ)(经典)\
 [0124. Binary Tree Maximum Path Sum](https://hackmd.io/mi68cm-8Sb6V2g0ZXwCy3Q)(经典)\
 [0549. Binary Tree Longest Consecutive Sequence II](https://hackmd.io/E80ctt87TcmNmZW-bx2gAw)\
@@ -578,6 +598,8 @@ backtracking 模版:
 [0687. Longest Univalue Path](https://hackmd.io/yr5bIriNQ3ahO_D6ah679Q)(经典)\
 [2049. Count Nodes With the Highest Score](https://hackmd.io/tTfQSMKxRoKh7xAlV3PwHA)\
 [2246. Longest Path With Different Adjacent Characters](https://hackmd.io/CxJftNNbS9CyGJTXJ2j8Pg)
+##### Cost of Path
+[2673. Make Costs of Paths Equal in a Binary Tree](https://hackmd.io/ZEF3r16WT_OxVeSZuZQL1w)
 ### LCA
 除了235和1650之外，基本上所有的题都按照236的模版写 (核心思想：如果一个node 左右两边的subtree都有target node那么就返回他本身 否则就返回左边subtree或者右边subtree的LCA)\
 [0235. Lowest Common Ancestor of a Binary Search Tree](https://hackmd.io/irC3SlpLSda4ljtH_iIVxg)(经典)\
@@ -645,7 +667,8 @@ union find 计算group数量:
 [1697. Checking Existence of Edge Length Limited Paths](https://hackmd.io/pFeiq6JLSmSzs26pBw-L3Q)\
 [2421. Number of Good Paths](https://hackmd.io/fiQDv27nQ7e-Rx86uMdL6w)
 ### Minimum Spanning Tree
-[1135. Connecting Cities With Minimum Cost](https://hackmd.io/Fo-g8osYTGOAsqcF18Ljxw)
+[1135. Connecting Cities With Minimum Cost](https://hackmd.io/Fo-g8osYTGOAsqcF18Ljxw)\
+[1168. Optimize Water Distribution in a Village](https://hackmd.io/jpwmOiMDRnCtNHtmKf8Lmg)
 ### Union by Index
 [0947. Most Stones Removed with Same Row or Column](https://hackmd.io/S7lrCKT0QKSPqvteahktDw)\
 [1632. Rank Transform of a Matrix](https://hackmd.io/5wVtncoBTc-sykHAtj8QKA)
@@ -681,7 +704,8 @@ a = a^b //a^b^a = b
 [2429. Minimize XOR](https://hackmd.io/LXIg8NoKTVGW91_uLnttRA)\
 [0779. K-th Symbol in Grammar](https://hackmd.io/g0XUmDIYSSyutghCE2WAaw)\
 [2527. Find Xor-Beauty of Array](https://hackmd.io/D2QLH61QQvWC_l2fTrrUyg)\
-[2564. Substring XOR Queries](https://hackmd.io/CEeWxps3QL2aLedla5Bv6A)
+[2564. Substring XOR Queries](https://hackmd.io/CEeWxps3QL2aLedla5Bv6A)\
+[1720. Decode XORed Array](https://hackmd.io/wWEoxlB0SVKcP6NdBfjBkA)
 ### OR
 [2568. Minimum Impossible OR](https://hackmd.io/_xWnArgKTO6f2pAq06z9Bw)
 ### Bitmask
@@ -694,7 +718,7 @@ a = a^b //a^b^a = b
 #### Meet in the middle
 [2035. Partition Array Into Two Arrays to Minimize Sum Difference](https://hackmd.io/I22jyyq6QmejNugcm3CUdQ)
 ## Deque
-Sliding Window Maximum (在sliding window里找maximum) 模版:
+**Sliding Window Maximum** (在sliding window里找maximum) 模版:
 ```
 Deque<int[]> q = new ArrayDeque<>();
 for(int i=0; i<nums.length; i++){
@@ -705,7 +729,9 @@ for(int i=0; i<nums.length; i++){
 }
 ```
 [1499. Max Value of Equation](https://hackmd.io/JT-L6xehRFCuBUsqJGXd8w)\
-[1696. Jump Game VI](https://hackmd.io/PkwAF5OZRUKwbtJZpNJMKQ)
+[1696. Jump Game VI](https://hackmd.io/PkwAF5OZRUKwbtJZpNJMKQ)\
+**单调deque**\
+[2762. Continuous Subarrays](https://hackmd.io/DQ7-uaMfTBeBac5Rd_W9TQ)
 ## Trie
 Trie 模版:
 ```
@@ -748,6 +774,7 @@ class Solution {
     }
 }
 ```
+需要swap node的时候看清题目要求是**要swap值还是swap node** ([1721. Swapping Nodes in a Linked List](https://hackmd.io/t7cDQNa5R3iyyw0SdZw_Gg))\
 [0061. Rotate List](https://hackmd.io/fNN_O2qPT2OjcYV8VaQ4Nw)\
 [0086. Partition List](https://hackmd.io/qbiIN4s2Rkyk-Fs_QsGK5Q)\
 [0369. Plus One Linked List](https://hackmd.io/z67xI6jmTVWpEcD8GhOM8Q)\
@@ -757,7 +784,8 @@ class Solution {
 [0379. Design Phone Directory](https://hackmd.io/ztM5wkeEQvSsCGpTugxmGg)\
 [1171. Remove Zero Sum Consecutive Nodes from Linked List](https://hackmd.io/S347XZc-Q2u1-62Wpzha3A)\
 [0237. Delete Node in a Linked List](https://hackmd.io/CPPiWzYVTZmYVfiYwlLZww)\
-[2046. Sort Linked List Already Sorted Using Absolute Values](https://hackmd.io/mp_hWTqlTfCGfHMj1zUOdg)
+[2046. Sort Linked List Already Sorted Using Absolute Values](https://hackmd.io/mp_hWTqlTfCGfHMj1zUOdg)\
+[1721. Swapping Nodes in a Linked List](https://hackmd.io/t7cDQNa5R3iyyw0SdZw_Gg)
 
 ### Reverse Linked List
 [0206. Reverse Linked List](https://hackmd.io/S8XKw5EbRsict3n4C7_0qg)\
@@ -815,7 +843,17 @@ subarray题目状态定义：**包含**nums[i]的最值，然后**在过程中�
 [1911. Maximum Alternating Subsequence Sum](https://hackmd.io/iUU3o61HQ12ZHVx_hinMhQ)\
 [2100. Find Good Days to Rob the Bank](https://hackmd.io/dLyiJDP8QoiIX8R0fuZp2Q)\
 [1997. First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/description/)\
-[2555. Maximize Win From Two Segments](https://hackmd.io/HKJMbIInThiVNpzZHnf_og)
+[2555. Maximize Win From Two Segments](https://hackmd.io/HKJMbIInThiVNpzZHnf_og)\
+[2646. Minimize the Total Price of the Trips](https://hackmd.io/SxPkuNLCSI2njX-lIhwKvQ)\
+[2771. Longest Non-decreasing Subarray From Two Arrays](https://hackmd.io/aAUF2EriSVqr3KhEWlU1jQ)
+#### Kadane’s algorithm
+Kadane’s algorithm 求最大subsequence和\
+currMax记录以当前元素结尾的最大subsequence和\
+ans记录整个遍历过程的最大subsequence和\
+[2606. Find the Substring With Maximum Cost](https://hackmd.io/wg87LZp4Tc2iM5rkfCOeVQ)\
+[0053. Maximum Subarray](https://hackmd.io/qpgZUbERQVOXcw9DSBI1Mw)
+
+
 #### 变式 (把"权利"写进状态)
 [0487. Max Consecutive Ones II](https://hackmd.io/8lcD9MH8RAqKwz7DVjNtGg)\
 [1186. Maximum Subarray Sum with One Deletion](https://hackmd.io/mEeqqUmARlmmtyQR_chxVQ)\
@@ -837,7 +875,8 @@ subarray题目状态定义：**包含**nums[i]的最值，然后**在过程中�
 [2209. Minimum White Tiles After Covering With Carpets](https://hackmd.io/UEAOe9NtRSSb7fQkrmefhw)(Good)\
 [0983. Minimum Cost For Tickets](https://hackmd.io/9G_ZvJRARB6gUpo1ob1JCw)\
 [2188. Minimum Time to Finish the Race](https://hackmd.io/OuEE-5SKRG6r3Fz8KFSJfQ)\
-[2464. Minimum Subarrays in a Valid Split](https://hackmd.io/0BDxqHTlQ_eLVBqV4h2Utg)
+[2464. Minimum Subarrays in a Valid Split](https://hackmd.io/0BDxqHTlQ_eLVBqV4h2Utg)\
+[2767. Partition String Into Minimum Beautiful Substrings](https://hackmd.io/Iq3vbVtISeioqdgKdeWRhA)
 #### 分组题
 找到前一个group的最后一个元素\
 [1105. Filling Bookcase Shelves](https://hackmd.io/SStKMDA2S2OdA5X256a7KA)\
@@ -965,7 +1004,10 @@ for (int state=1; state<(1<<n); state++){
 [2120. Execution of All Suffix Instructions Staying in a Grid](https://hackmd.io/vZadj8YgS66je8F2taAD5w)\
 [1706. Where Will the Ball Fall](https://hackmd.io/kC_WJ-rdRwqN4zEbQjwf2A)\
 [2596. Check Knight Tour Configuration](https://hackmd.io/bV47pGkvTueX6d_0vECkXQ)\
-[2593. Find Score of an Array After Marking All Elements](https://hackmd.io/yNRUw37MR0O0zm6AgIW1dg)
+[2593. Find Score of an Array After Marking All Elements](https://hackmd.io/yNRUw37MR0O0zm6AgIW1dg)\
+[2679. Sum in a Matrix](https://hackmd.io/PtMi_GsuSQePnamQugi6SQ)\
+[2766. Relocate Marbles](https://hackmd.io/FwG1gMwrTjCkmmkz0qxvrA)\
+[2768. Number of Black Blocks](https://hackmd.io/dN7KvirzTBSIOv5Pa2-TwQ)
 ## 图形题
 ### 基本型I DP
 [1039. Minimum Score Triangulation of Polygon](https://hackmd.io/DeG_gFXGT46K7IHUUZfCZg)
@@ -978,12 +1020,21 @@ for (int state=1; state<(1<<n); state++){
 [2125. Number of Laser Beams in a Bank](https://hackmd.io/QVmjyAuuTcyEBX_9CPjOhg)\
 [2578. Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/description/)\
 [2579. Count Total Number of Colored Cells](https://hackmd.io/mNusnX4ASsGNRQGXGqqvSQ)\
-[2489. Number of Substrings With Fixed Ratio](https://hackmd.io/BF-5UMALQQqPnLuMUgOYJg)
+[2489. Number of Substrings With Fixed Ratio](https://hackmd.io/BF-5UMALQQqPnLuMUgOYJg)\
+[2645. Minimum Additions to Make Valid String](https://hackmd.io/5dRX14qgTx-ZYE5pZcORQg)\
+[2750. Ways to Split Array Into Good Subarrays](https://hackmd.io/3rzK_KpxSaOCjpkGa3_cBg)\
+[2780. Minimum Index of a Valid Split](https://hackmd.io/Usg9z8zqRmaFokFROzvAJw)
+### 找规律
+[2607. Make K-Subarray Sums Equal](https://hackmd.io/dAyeYzOGQziwFoJ9peBa6w)\
+[1954. Minimum Garden Perimeter to Collect Enough Apples](https://hackmd.io/yv1RRCOUSRmtIZxycBufgw)\
+[2745. Construct the Longest New String](https://hackmd.io/oGMNHJXwSzCg-OIn8ODBDg)
 ### Greatest Common Divisor
 [2427. Number of Common Factors](https://hackmd.io/eitQmChnRaGw_OhNPbOQSA)\
 [2447. Number of Subarrays With GCD Equal to K](https://hackmd.io/0-gZfdDARlCFnon9Pibang)\
 [0453. Minimum Moves to Equal Array Elements](https://hackmd.io/ZVroSpuXQ1i498uRKIqbeg)\
-[2028. Find Missing Observations](https://hackmd.io/mHWr0ZNtSFCwVZ4nWI8KRg)
+[2028. Find Missing Observations](https://hackmd.io/mHWr0ZNtSFCwVZ4nWI8KRg)\
+[2654. Minimum Number of Operations to Make All Array Elements Equal to 1](https://hackmd.io/23fvUkd_RpybvNLROy1jbg)\
+[2748. Number of Beautiful Pairs](https://hackmd.io/5eBwcfe3SX2NOUkLzNM_cQ)
 ### Lowest Common Multiplier
 [2513. Minimize the Maximum of Two Arrays](https://hackmd.io/2n5fUbyuRNK1leh1Gn3DmA)
 ### 距离所有点直线距离最近的点
@@ -1001,11 +1052,24 @@ for (int state=1; state<(1<<n); state++){
 [2598. Smallest Missing Non-negative Integer After Operations](https://hackmd.io/4off_E0cRLmC_5aoP34oVg)
 ### 解方程
 [2485. Find the Pivot Integer](https://hackmd.io/PZ5Y4Z9OSTOa59WxHLBdVw)
-### Prime
+### Prime & Sieve Algorithm
+Sieve Algorithm
+```python=
+isPrime = [True] * maxNum
+    isPrime[1] = False
+    def buildSieve(self):
+        for i in range(2, int(math.sqrt(self.maxNum))):
+            if self.isPrime[i]:
+                for j in range(i*i, self.maxNum, i):
+                    self.isPrime[j] = False
+```
+注意1不是prime, 第二层循环之前先检查```i```是否为prime，防止重复遍历，第二层回圈从```i*i```开始\
 [2507. Smallest Value After Replacing With Sum of Prime Factors](https://hackmd.io/W-JEZEGKTCGQveCm_7Rppg)\
-[2521. Distinct Prime Factors of Product of Array](https://hackmd.io/wSoGjwjrT-O5ZPbCkenfDw)
-#### Sieve of Eratosthenes
-[2523. Closest Prime Numbers in Range](https://hackmd.io/vsIcTNCpTsO2MpHaKAzPmw)
+[2521. Distinct Prime Factors of Product of Array](https://hackmd.io/wSoGjwjrT-O5ZPbCkenfDw)\
+[2523. Closest Prime Numbers in Range](https://hackmd.io/vsIcTNCpTsO2MpHaKAzPmw)\
+[2601. Prime Subtraction Operation](https://hackmd.io/aO_ZiVxaRSmT1EAbFpjvkA)\
+[2614. Prime In Diagonal](https://hackmd.io/HCKwmIe9S-aeUMuPActO8Q)\
+[2761. Prime Pairs With Target Sum](https://hackmd.io/m8nnlGXvTDuULtOR97N88w)
 ## Area
 [0223. Rectangle Area](https://hackmd.io/5W7wV6vBTqifjEywz6mtGg)
 ## Line Sweep & 差分法
@@ -1043,7 +1107,12 @@ for (int state=1; state<(1<<n); state++){
 [2017. Grid Game](https://hackmd.io/a95O-JFIRjiYTPExU0nbQQ)\
 [2121. Intervals Between Identical Elements](https://hackmd.io/vRle-lSXQSWKeA1hw0rTvQ)\
 [2145. Count the Hidden Sequences](https://hackmd.io/mtN56u_PTDa0UGkq-cfDgw)\
-[2574. Left and Right Sum Differences](https://hackmd.io/FWqK69BBTj6i3RZbliRP2Q)
+[2574. Left and Right Sum Differences](https://hackmd.io/FWqK69BBTj6i3RZbliRP2Q)\
+[2640. Find the Score of All Prefixes of an Array](https://hackmd.io/0JyLrqLJRiWaiJ01TCwdAg)
+### Simplify the sum of abs|diff|
+将绝对值的和拆成```当前数字*比它小的数字个数-所有比它小的数字和+所有比它大的数字和-当前数字*比它大的数字和```
+[2602. Minimum Operations to Make All Array Elements Equal](https://hackmd.io/ZXR1h6CER96MrOgxtoRo3w)\
+[]
 ## Indexing 
 具体关于swap的讲解在442里面\
 [0287. Find the Duplicate Number](https://hackmd.io/hxOTm-zKQUKWmdoBsWVXYg)\
@@ -1063,7 +1132,8 @@ for (int state=1; state<(1<<n); state++){
 [2353. Design a Food Rating System](https://hackmd.io/wZkINjH0SsyXVFrzZHkhng)\
 [1628. Design an Expression Tree With Evaluate Function](https://hackmd.io/JUKSeTfDRmqxNwz6DyHznw)\
 [0355. Design Twitter](https://hackmd.io/O0H7TN7ZRIuz4v-ZIbkUxQ)\
-[2166. Design Bitset](https://hackmd.io/Hez2wxP2Qu21nYGvKRQqNg)
+[2166. Design Bitset](https://hackmd.io/Hez2wxP2Qu21nYGvKRQqNg)\
+[2671. Frequency Tracker](https://hackmd.io/XKxSg-yBQUey3J3vOM5sVA)
 ## 计算长方形最大面积/最大边长
 [0221. Maximal Square](https://hackmd.io/0Ie3z7ZRSH6sB5fMh1ZP7g)\
 [1277. Count Square Submatrices with All Ones](https://hackmd.io/rfyE5TsLSGmlkOMPANdsGQ)\
@@ -1135,6 +1205,7 @@ Arrays.sort(players, new Comparator<int[]>() {
 - ```list.index()``` returns the position at the first occurrence of the specified value ([2091. Removing Minimum and Maximum From Array](https://hackmd.io/S5yg4zs2RwOSnhAKRn7tbg))
 - The ```sort()``` method doesn't return any value. Rather, it changes the original list; If you want a function to return the sorted list rather than change the original list, use ```sorted()```([2545. Sort the Students by Their Kth Score](https://hackmd.io/4JKjhA9tTse0Ulk1PD-rUw))
 - [lambda表达式](https://www.w3schools.com/python/python_lambda.asp)([2545. Sort the Students by Their Kth Score](https://hackmd.io/4JKjhA9tTse0Ulk1PD-rUw))
+- ```zip()```和```zip(*)```((2679. Sum in a Matrix)[https://hackmd.io/PtMi_GsuSQePnamQugi6SQ])
 ## 注意事项
 - 如果res是long，题目要求你return res%1000000007 
     ```(int)res%mod``` wrong ```(int)(res%mod)``` correct 前面一种方法会先把res变成int然后再算
